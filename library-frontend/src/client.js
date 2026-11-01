@@ -29,7 +29,7 @@ const httpLink = new HttpLink({
   uri: `${apiUrl}/graphql`,
 });
 
-const wsUrl = apiUrl.replace(/^http/, "ws");
+const wsUrl = apiUrl.replace(/^https/, "ws");
 
 const wsLink = new GraphQLWsLink(
   createClient({
