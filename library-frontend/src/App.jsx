@@ -50,8 +50,6 @@ const App = () => {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, []);
 
-  // `icon` przechowuje komponent (nie gotowy element), dzięki czemu
-  // rozmiar można ustawić osobno w menu desktopowym i mobilnym.
   const links = [
     { id: "authors", label: "authors" },
     { id: "books", label: "books" },
@@ -164,7 +162,7 @@ const App = () => {
                 target="_blank"
                 rel="noreferrer"
                 aria-label="github-repo"
-                href="https://github.com/realNormanik/full-stack-open/tree/main/part8/library-frontend"
+                href="https://github.com/realNormanik/full-stack-open-graphql/tree/main/library-frontend"
                 className="u1 focus:text-g-100 hover:text-[#a6a6a6] text-white text-base font-mono no-underline px-6 pt-[.1875rem] pb-6 m-0 -mb-5 transition-colors duration-[150ms] ease-[cubic-bezier(1,-.115,.975,.855)]"
               >
                 <p className="text-current font-normal text-base mt-4 mb-4">
