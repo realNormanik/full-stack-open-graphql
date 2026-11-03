@@ -112,13 +112,13 @@ Follow these steps to run the project locally:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/realNormanik/full-stack-open-graphql.git
+git clone https://github.com/realNormanik/full-stack-open.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd graphql-frontend
+cd part8/library-frontend
 ```
 
 3. Install the dependencies:
